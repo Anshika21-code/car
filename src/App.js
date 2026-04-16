@@ -197,7 +197,7 @@ function App() {
               <h2>Stop browsing. Start driving.</h2>
             </div>
             <div className="cta">
-              <a className="button">BUY</a>
+              <a className="button" href="#">BUY</a>
             </div>
             <div/>
             <div/>
