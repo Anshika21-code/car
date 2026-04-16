@@ -94,6 +94,7 @@ function App() {
       pin: true,
       anticipatePin: 1
     })
+    
     // Slide 1
     gsap.fromTo(slide1_title, {x: -100, opacity: 0}, {x: 0, opacity: 1, delay: .6})
     gsap.to(slide1_line, {width: "100%", delay: .6})
