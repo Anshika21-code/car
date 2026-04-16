@@ -163,8 +163,8 @@ function App() {
         <section className="slide" id="slide2">
           <div className="slide-inner">
             <div className="title">
-              <h1 ref={el => {slide2_h1 = el}}>The pinnacle of design</h1>
-              <p ref={el => {slide2_p = el}}>Classic, sophisticated and elegant shape. Aerodynamics? Coming in version 0.2!</p>
+              <h1 ref={el => {slide2_h1 = el}}>YOUR CAR, YOUR RULES</h1>
+              <p ref={el => {slide2_p = el}}>Design, customize, and own the road.</p>
             </div>
             {/*<button class="button" onClick={vroomToggle}>
               Car go vroom?
@@ -173,8 +173,8 @@ function App() {
         </section>
         <section className="slide" id="slide3">
           <div className="slide-inner" ref={el => {slide3_inner = el}}>
-            <h1 ref={el => {slide3_h1 = el}}>Masterful enginuity</h1>
-            <p>Look at the underside of that thing. So... <i>smooth?</i></p>
+            <h1 ref={el => {slide3_h1 = el}}>RAW POWER BENEATH</h1>
+            <p>What you don't see is what makes all the difference.</p>
           </div>
         </section>
         <section className="slide" id="slide4">
@@ -184,19 +184,19 @@ function App() {
             </div>
             <div id="right">
               <h1 ref={el => {slide4_h1 = el}}>Power unleashed</h1>
-              <p>Rarrr, look at that - power.. mm, yeah..?</p>
+              <p>Feel the roar before you even turn the key.</p>
             </div>
           </div>
         </section>
         <section className="slide" id="slide5" ref={el => {slide5_content = el}}>
           <div className="slide-inner">
             <div>
-              <h2>It could be yours,</h2>
-              <h1>TODAY</h1>
-              <small>"Today" but smaller</small>
+              <h2>Still scrolling?</h2>
+              <h1>YOU WANT IT</h1>
+              <h2>Stop browsing. Start driving.</h2>
             </div>
             <div className="cta">
-              <a className="button" href="https://www.youtube.com/watch?v=LErgmHmPLmw">BUY</a>
+              <a className="button">BUY</a>
             </div>
             <div/>
             <div/>
